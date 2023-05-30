@@ -67,7 +67,7 @@ def plot_evaluation(
         ip_relative_error = (ip_optimum / test_case.optimum - 1) * 100
         axes[1].set_title(f'IP solver prediction (error={ip_relative_error:.2f} %)')
     else:
-        axes[1].set_title(f'IP solver prediction (OPT={ip_optimum:.2f} %)')
+        axes[1].set_title(f'IP solver prediction (OPT={ip_optimum:.2f})')
 
     src = 0
     dst = -1
